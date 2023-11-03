@@ -9,7 +9,7 @@ data class QuestionItem(
     @SerializedName("category")
     val category: String?,
     @SerializedName("choices")
-    val choices: List<String?>?,
+    val choices: List<String>,
     @SerializedName("question")
-    val question: String?
+    val question: String
 )
